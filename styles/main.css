@@ -126,7 +126,6 @@ li {
     margin-bottom: 40px;
 }
 .text-info a {
-    display: ;
     font-family: "Montserrat-Bold";
     font-weight: 700;
     font-size: 16px;
@@ -165,7 +164,6 @@ li {
     height: 850px;
     background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
     opacity: 20%;
-
 }
 .visual img {
     width: 996px;
@@ -196,6 +194,18 @@ li {
     height: 598px;
     position: relative;
 }
+.gradient {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 30%;
+}
+.info-grid-item:hover:nth-child(1) .gradient {
+    opacity: 60%;
+}
 .info-grid-cover img {
     position: absolute;
     left: 50%;
@@ -216,6 +226,7 @@ li {
     font-size: 28px;
     color: rgba(43, 53, 65, 1);
     max-width: 259px;
+    margin: 0;
 }
 .info-grid-date {
     font-family: "montserrat-bold";
@@ -223,19 +234,25 @@ li {
     font-size: 18px;
     color:rgba(43, 53, 65, 1);
     opacity: 60%;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .info-grid-btn {
     position: absolute;
     border: none;
     background-color: #FBF138;
-    padding: 10px 20.2px;
+    padding: 15px 20.2px;
     bottom: 0px;
     right: 0px;
     cursor: pointer; 
 }
 .info-btn-text {
     color: rgba(43, 53, 65, 1);
-    ;    
+    font-family: "montserrat-regular";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
 }
 .info-grid-maraphon {
     border: none;
@@ -259,7 +276,9 @@ li {
     text-align: center;
     z-index: 1;
 }
-
+.yoga {
+    object-position: -408px;
+}
 
 
 
